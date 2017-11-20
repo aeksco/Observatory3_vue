@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <AppNavbar/>
-    <router-view/>
+    <router-view class='app'/>
     <AppFooter/>
     <Notification/>
   </div>
@@ -38,5 +38,9 @@ export default {
 <style type="text/css">
   body {
     background-color: #f3f3f3;
+  }
+
+  .app {
+    margin-top: 4rem;
   }
 </style>
