@@ -5,6 +5,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './routers'
 import store from '@/store'
+import PageHeader from '@/components/PageHeader'
+
+// Registers global components
+Vue.component('page-header', PageHeader)
 
 // QUESTION - ??
 Vue.config.productionTip = false
