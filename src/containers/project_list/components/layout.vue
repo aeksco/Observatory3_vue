@@ -1,9 +1,7 @@
 <template>
-  <div class="container mt-2">
+  <div class="container">
 
-    <h3>Projects</h3>
-
-    <hr>
+    <PageHeader title="Projects"/>
 
     <div class="row">
       <div class="col-lg-12">

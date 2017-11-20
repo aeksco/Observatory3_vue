@@ -1,11 +1,17 @@
 <template>
   <div class="container pt-3">
-  	<h4>Attendance</h4>
-      <div class="col-lg-8">
+
+    <PageHeader title='Attendance History'/>
+
+    <div class="row">
+      <div class="col-lg-12">
         <CodeInput/>
       </div>
-    <h4>Previoud Attendance:</h4>
+    </div>
+
+
     <TableHeader/>
+
     <Explore/>
   </div>
 </template>

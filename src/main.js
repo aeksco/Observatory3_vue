@@ -8,7 +8,7 @@ import store from '@/store'
 import PageHeader from '@/components/PageHeader'
 
 // Registers global components
-Vue.component('page-header', PageHeader)
+Vue.component('PageHeader', PageHeader)
 
 // QUESTION - ??
 Vue.config.productionTip = false

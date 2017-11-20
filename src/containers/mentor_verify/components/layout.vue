@@ -1,8 +1,7 @@
 
 <template>
   <div class="container">
-  	<h2>Mentor - Verify</h2>
-  	<hr>
+    <PageHeader title='Mentor - Verify'/>
   	<List/>
   </div>
 </template>

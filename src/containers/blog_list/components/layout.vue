@@ -1,12 +1,10 @@
 
 <template>
   <div class="container">
+    <PageHeader title="Blog" />
+
     <div class="row">
       <div class="col-lg-12">
-
-        <!-- Header -->
-        <h2>Post List</h2>
-        <hr>
 
         <!-- Fetching -->
         <!-- TODO - this should be a component -->

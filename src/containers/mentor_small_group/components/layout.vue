@@ -1,8 +1,7 @@
 
 <template>
   <div class="container">
-  	<h2>Mentor - Small Group</h2>
-  	<hr>
+  	<PageHeader title='Mentor - Small Group'/>
   	<p class="lead">TODO</p>
   </div>
 </template>
